@@ -1,0 +1,42 @@
+{
+    "name": "React-snippet",
+    "displayName": "React Native Snippet",
+    "description": "React Native, StyleSheet, Redux Snippet",
+    "version": "0.0.1",
+    "author": "naveenozzzo",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/naveenozzzo/React-Snippet.git"
+	},
+	"bugs": {
+		"url": "https://github.com/naveenozzzo/React-Snippet/issues"
+	},
+    "icon": "images/react-native-logo.png",
+    "publisher": "naveenozzzo",
+    "keywords": [
+        "react-native",
+        "stylesheet",
+        "snippets",
+        "redux",
+        "javascript"
+    ],
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/react-native-snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/react-native-snippets.json"
+            }
+        ]
+    }
+}
